@@ -1,30 +1,51 @@
-@charset "UTF-8";
-
-.Navbar{
-    background-color: #46a7c262;
+.NavbarLayout{
     width: 100%;
     height: 100px;
+    // background-color: rgb(17, 151, 196);
+    .MakeMakeLogo{
+        border-radius: 15px;
+    }
+    .PagesButton {
+        position: relative;
+        background-color: #1E1E30;
+        border: 3px solid #5d63737d;
+        width: 66px;
+        height: 58px;
+    
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: 3px;
+            background-color: #ffffff;
+        }
+    
+        &::before {
+            transform: translate(-50%, -50%) translateY(-8px);
+        }
+    
+        &::after {
+            transform: translate(-50%, -50%) translateY(8px);
+        }
+    
+        &:hover {
+            border: 4px solid #8F9BBB;
+        }
+    }
+    
+    
+    
+    .OffcanvasLayout{
+        font-size: larger;
+        .OffcanvasHeader{
+            .OffcanvasNavbarTitle{
+                font-size: larger;
+                color: aqua;
+            }
+        }
+    }
 }
-
-.offcanvasButton {
-    position: fixed;
-    top: 5%;
-    right: 20px; /* 調整按鈕與畫面右側的距離 */
-    transform: translateY(-50%);
-    z-index: 1000; /* 確保按鈕位於最上層 */
-}
-
-.offcanvasContainer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 300px; /* Offcanvas 寬度 */
-    background-color: #fff; /* Offcanvas 背景色 */
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Offcanvas 陰影效果 */
-    transition: transform 0.3s ease; /* 添加過渡效果 */
-    transform: translateX(100%); /* 初始時 Offcanvas 在右側隱藏 */
-}
-
-.offcanvas-container.open {
-    transform: translateX(0);} /* 點擊按鈕後將 Offcanvas 移入畫面 */

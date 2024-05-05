@@ -1,0 +1,9 @@
+.MakeMakeHomeBody{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-Direction: 'column';
+    .MakeMakeHomeTitle{
+        border-radius: 15px;
+    }
+}

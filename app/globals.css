@@ -1,12 +1,4 @@
-body {
-  background-color: #1E1E30;
-  /* color: rgb(54, 29, 122);
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(70, 95, 195)
-    )
-    rgb(10, 24, 79); */
+*{
+    background-color: #1E1E30;
+    color: #95A8DA;
 }
-
-
