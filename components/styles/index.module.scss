@@ -2,8 +2,15 @@
     display: flex;
     justify-content: center;
     flex-wrap:wrap;
-    flex-Direction: 'column';
+    flex-direction: 'column';
     .MakeMakeHomeTitle{
         border-radius: 15px;
+        padding-top: 1%;
+    }
+    .MakeMakeHomeImage{
+        padding-top: 2%;
+    }
+    .MakeMakeHomeIntro{
+        font-size: larger;
     }
 }

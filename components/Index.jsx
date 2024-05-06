@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 
 const images = [
     '/Team.svg',
-    '/MakeMake.svg'
+    '/Logo.svg'
 ];
 
 function Index() {
@@ -17,7 +17,7 @@ function Index() {
     useEffect(() => {
         const interval = setInterval(() => {
             setIndex(prevIndex => (prevIndex + 1) % images.length);
-        }, 7000); // 每7秒切換一次首頁大圖，7000=7秒
+        }, 7000);
 
         return () => clearInterval(interval);
     }, []);
@@ -28,19 +28,23 @@ function Index() {
             <div className={styles.MakeMakeHomeTitle}>
                     <Image
                     src="/MakeMake.svg"
-                    width={1041}
+                    width={1000}
                     height={158}
                     alt="MakeMake title"
                 />
-                </div>
-                <div className={styles.MakeMakeHomeImage}>
+            </div>
+            <div className={styles.MakeMakeHomeImage}>
                 <Image 
                 src={images[Index]}
                 width={1000}
                 height={431} 
                 alt={`Image ${Index + 1}`} 
                 />
-            </div>        
+            </div>
+            <div className={styles.MakeMakeHomeIntro}>
+                <h2>About us</h2>
+                <p>texttexttexttexttexttexttexttexttexttexttexttext</p>
+            </div>  
         </div>
         </body>
     );

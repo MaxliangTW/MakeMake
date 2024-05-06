@@ -1,10 +1,9 @@
 .NavbarLayout{
     width: 100%;
-    height: 100px;
+    height: 140px;
     // background-color: rgb(17, 151, 196);
-    .MakeMakeLogo{
-        border-radius: 15px;
-    }
+    display: flex;
+    justify-content: space-around;
     .PagesButton {
         position: relative;
         background-color: #1E1E30;
@@ -33,19 +32,17 @@
         }
     
         &:hover {
-            border: 4px solid #8F9BBB;
+            border: 4px solid #7686af;
         }
     }
-    
-    
-    
     .OffcanvasLayout{
-        font-size: larger;
         .OffcanvasHeader{
-            .OffcanvasNavbarTitle{
-                font-size: larger;
-                color: aqua;
+            .btn-close{
+                color: #ffffff;
             }
         }
+    }
+    .MakeMakeLogo{
+        border-radius: 15px;
     }
 }

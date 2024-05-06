@@ -17,13 +17,6 @@ function Example() {
 
   return (
     <Navbar className={styles.NavbarLayout}>
-       <Image
-       className={styles.MakeMakeLogo}
-        src="/Logo.svg"
-        width={75}
-        height={75}
-        alt="MakeMake Logo"
-      />
       <Button 
         className={styles.PagesButton} 
         variant="primary" onClick={handleShow}>
@@ -54,6 +47,13 @@ function Example() {
           </ul>
         </Offcanvas.Body>
       </Offcanvas>
+      <Image
+       className={styles.MakeMakeLogo}
+        src="/Logo.svg"
+        width={75}
+        height={75}
+        alt="MakeMake Logo"
+      />
     </Navbar>
   );
 }
