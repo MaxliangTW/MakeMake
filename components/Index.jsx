@@ -24,7 +24,6 @@ function Index() {
     return (
         <body>
         <Navbar />
-        <h1>Home</h1>
         <div className={styles.MakeMakeHomeBody}>
             <div className={styles.MakeMakeHomeTitle}>
                     <Image
