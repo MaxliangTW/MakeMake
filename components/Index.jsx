@@ -1,7 +1,8 @@
 'use client'
 
 import React from 'react';
-import Navbar from './Navbar'
+import Navbar from './Navbar';
+import Footer from './footer';
 import styles from "./styles/index.module.scss";
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
@@ -21,6 +22,7 @@ function Index() {
 
         return () => clearInterval(interval);
     }, []);
+    
     return (
         <body>
         <Navbar />
@@ -46,6 +48,7 @@ function Index() {
                 <p>texttexttexttexttexttexttexttexttexttexttexttext</p>
             </div>  
         </div>
+        <Footer />
         </body>
     );
 }
