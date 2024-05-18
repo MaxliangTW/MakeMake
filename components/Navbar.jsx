@@ -20,6 +20,12 @@ function Example() {
       <Button 
         className={styles.PagesButton} 
         variant="primary" onClick={handleShow}>
+        <Image
+          src="/SideNavbar.svg"
+          width={45}
+          height={45}
+          alt="MakeMake Side Navbar"
+        />
       </Button>
       <Offcanvas
         className={styles.OffcanvasLayout}
@@ -49,7 +55,7 @@ function Example() {
       </Offcanvas>
       <Image
        className={styles.MakeMakeLogo}
-        src="/Logo.svg"
+        src="/右上Logo.svg"
         width={75}
         height={75}
         alt="MakeMake Logo"

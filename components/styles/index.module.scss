@@ -4,13 +4,34 @@
     flex-wrap:wrap;
     flex-direction: 'column';
     .MakeMakeHomeTitle{
+        height: 20vh;
         border-radius: 15px;
         padding-top: 1%;
     }
     .MakeMakeHomeImage{
         padding-top: 2%;
+        border-radius: 20px;
     }
+}
+.Intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
     .MakeMakeHomeIntro{
         font-size: larger;
+        h2 {
+            margin: 0;
+            padding-bottom: 5px;
+        }
+    
+        p {
+            margin: 0;
+        }
     }
+}
+.FacebookPost{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
