@@ -3,6 +3,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './footer';
+import Background from './Background';
 import styles from "./styles/index.module.scss";
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
@@ -33,6 +34,7 @@ function Index() {
                     width={800}
                     height={126}
                     alt="MakeMake title"
+                    layout="responsive"
                 />
             </div>
             <div className={styles.MakeMakeHomeImage}>
@@ -40,7 +42,8 @@ function Index() {
                 src={images[Index]}
                 width={900}
                 height={600}
-                alt={`Image ${Index + 1}`} 
+                alt={`Image ${Index + 1}`}
+                layout="responsive"
                 />
             </div>  
         </div>
@@ -49,7 +52,7 @@ function Index() {
                 <h2>About us</h2>
                 <div>
                     <p>
-                    texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext,<br />
+                    texttexttexttexttexttexttexttexttexttexttexttexttexttext,<br />
                     texttexttexttexttexttexttexttexttexttexttexttext,<br />
                     texttexttexttexttexttexttexttexttexttexttexttext.
                     </p>
@@ -73,6 +76,7 @@ function Index() {
             </iframe>
         </div>
         <Footer />
+        <Background />
         </body>
     );
 }
