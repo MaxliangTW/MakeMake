@@ -26,6 +26,7 @@ function Index() {
     
     return (
         <body>
+        <Background />
         <Navbar />
         <div className={styles.MakeMakeHomeBody}>
             <div className={styles.MakeMakeHomeTitle}>
@@ -76,7 +77,6 @@ function Index() {
             </iframe>
         </div>
         <Footer />
-        <Background />
         </body>
     );
 }
