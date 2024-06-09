@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Brygada_1918 } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Brygada_1918({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'MakeMake',

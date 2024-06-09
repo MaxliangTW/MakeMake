@@ -1,0 +1,47 @@
+.MerchPage{
+    .Merchtitle{
+        color: #ffffff;
+        margin-left: 20vw;
+        margin-bottom: 2rem;
+    }
+    .divider {
+        width: 65%;
+        height: 1px;
+        left: 20vw;
+        background-color: #fff;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    .merchSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (max-width: 600px) {
+            img {
+                width: 300px;
+                height: auto;
+            }
+        }
+    }
+    .MerchPageintro{
+        padding-top: 8vh;
+        font-size: 24px;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+        word-spacing: 0.1em;
+
+        @media (min-width: 570px) and (max-width: 770px) {
+              p {
+                font-size: 15px;
+              }
+        }
+
+        @media (max-width: 569px) {
+            p {
+              font-size: 11px;
+              font-weight: bold;
+              word-spacing: 0em;
+            }
+      }
+    }
+}

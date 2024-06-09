@@ -32,8 +32,8 @@ function Index() {
             <div className={styles.MakeMakeHomeTitle}>
                     <Image
                     src="/橫幅.svg"
-                    width={800}
-                    height={126}
+                    width={760}
+                    height={108}
                     alt="MakeMake title"
                     layout="responsive"
                 />
@@ -41,8 +41,8 @@ function Index() {
             <div className={styles.MakeMakeHomeImage}>
                 <Image 
                 src={images[Index]}
-                width={900}
-                height={600}
+                width={750}
+                height={500}
                 alt={`Image ${Index + 1}`}
                 layout="responsive"
                 />
@@ -50,12 +50,21 @@ function Index() {
         </div>
         <div className={styles.Intro}>
             <div className={styles.MakeMakeHomeIntro}>
-                <h2>About us</h2>
+                <h3 style={{ fontStyle: 'italic' }}>MakeMake</h3>
                 <div>
                     <p>
-                    texttexttexttexttexttexttexttexttexttexttexttexttexttext,<br />
-                    texttexttexttexttexttexttexttexttexttexttexttext,<br />
-                    texttexttexttexttexttexttexttexttexttexttexttext.
+                    An all-female Metal band from Taiwan, MakeMake <br />
+                    masterfully combines ferocity and melody, delivering a<br />
+                    powerful blend of striking appearances and exceptional<br />
+                    talent.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    Their distinctive style merges edgy coolness with <br />
+                    endearing charm, making them one of the most<br />
+                    captivating and contrasting female metal bands in the<br />
+                    scene.
                     </p>
                 </div>
         </div>
@@ -63,8 +72,8 @@ function Index() {
         <div className={styles.FacebookPost}>
             <iframe
                 src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakemakeband.official%2Fposts%2Fpfbid0VeS5KhWrqz1FT9iLYHFH2RM9zp88TkCbsfCNGBwyBiAYmBp3tA7WR1b98xEK2eowl&show_text=true&width=500&is_preview=true" 
-                width="500" 
-                height="665" 
+                width="450" 
+                height="625" 
                 style={{ 
                 border: 'none',
                 overflow: 'hidden',

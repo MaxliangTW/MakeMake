@@ -44,7 +44,7 @@ function Footer() {
                 </a>
                 <a target="_blank" href="https://music.apple.com/tw/artist/%E9%BA%A5%E7%90%AA%E9%BA%A5%E7%90%AA-makemake/1734595755?l=en-GB">
                     <Image
-                        src="/music.svg"
+                        src="/Apple_Music_Icon.svg"
                         width={30}
                         height={30}
                         alt="MakeMake Apple music"

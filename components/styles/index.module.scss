@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .body {
     margin: 0;
     padding: 0;
@@ -13,18 +15,27 @@
     .MakeMakeHomeTitle{
         height: 20vh;
         border-radius: 15px;
-        max-width: 800px;
+        max-width: 760px;
         padding-top: 1%;
 
+        @media (max-width: 500px) {
+          height:12vh;
+        }
+        
         @media (min-width: 768px) {
             padding-bottom: 0;
           }
     }
     .MakeMakeHomeImage{
         padding-top: 2%;
-        max-width: 900px;
+        max-width: 750px;
         border-radius: 20px;
 
+        @media (max-width: 500px) {
+           width: 390px;
+           height: 260px;
+        }
+        
         @media (min-width: 768px) {
             padding-top: 0;
           }
@@ -34,27 +45,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35vh;
+    height: 60vh;
     padding: 20px; 
     .MakeMakeHomeIntro{
-        font-size: larger;
-        h2 {
+        font-weight: 400;
+        font-size: 17px;
+        letter-spacing: 10%;
+        h3 {
             margin: 0;
             padding-bottom: 5px;
-            color: #95A8DA;
+            color: #ffffff;
             font-size: 2em;
         }
     
         p {
             margin: 0;
             font-size: 1em;
-            color: #95A8DA;
+            color: #ffffff;
+            letter-spacing: 0.1em;
         }
     }
  
     @media (max-width: 600px) {
         .MakeMakeHomeIntro {
-          height: 15vh;
+          height: 35vh;
+          padding: 0px;
           h2 {
             font-size: 1em;
           }
@@ -84,7 +99,7 @@
           }
     
           p {
-            font-size: 1.2em;
+            font-size: 1.3em;
           }
         }
       }
