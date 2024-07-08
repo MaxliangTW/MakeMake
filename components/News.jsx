@@ -38,9 +38,9 @@ function Index() {
                             <p>LJoin us for an evening to let it all out together!</p>
                             <p>⚡️Information⚡️</p>
                             <p>▹ Date｜July 21, 2024 Sun. 18:00<br />
-                            ▹ Venue｜B'IN LIVE SPACE -KEELUNG 3F (3F, No. 103, <br />
+                            ▹ Venue｜B&apos;IN LIVE SPACE -KEELUNG 3F (3F, No. 103, <br />
                             Zhongzheng Rd., Zhongzheng District, Keelung City)<br />
-                            ▹ Organizer｜B'IN LIVE Entertainment<br />
+                            ▹ Organizer｜B&apos;IN LIVE Entertainment<br />
                             </p>
                             <p>⚡️Ticket ⚡️</p>
                             <Link 
