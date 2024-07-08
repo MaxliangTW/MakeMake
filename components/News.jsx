@@ -25,16 +25,16 @@ function Index() {
                             />
                         </div>
                         <div className={styles.news2}>
-                            <p>✦ 2024 B'IN LIVE SPACE - KEELUNG Opening Concert ✦</p>
-                            <p>LIVE IN LIVE x MakeMake 17808 "Anti-bullying" </p>
+                            <p>✦ 2024 B&apos;IN LIVE SPACE - KEELUNG Opening Concert ✦</p>
+                            <p>LIVE IN LIVE x MakeMake 17808 &quot;Anti-bullying&quot; </p>
                             <p>Tired of school bullying, cyberbullying, and workplace <br />
-                                harassment? We've had enough of verbal violence! 
+                                harassment? We&apos;ve had enough of verbal violence! 
                             </p>
                             <p>People think they can hide behind their keyboards and say<br />
                                 anything without consequences. But there are better ways <br />
                                 to find care and support.
                             </p>
-                            <p>Life can be tough, but you don't have to face it alone.</p>
+                            <p>Life can be tough, but you don&apos;t have to face it alone.</p>
                             <p>LJoin us for an evening to let it all out together!</p>
                             <p>⚡️Information⚡️</p>
                             <p>▹ Date｜July 21, 2024 Sun. 18:00<br />
