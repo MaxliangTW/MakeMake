@@ -35,7 +35,7 @@ function Index() {
                                 to find care and support.
                             </p>
                             <p>Life can be tough, but you don&apos;t have to face it alone.</p>
-                            <p>LJoin us for an evening to let it all out together!</p>
+                            <p>Join us for an evening to let it all out together!</p>
                             <p>⚡️Information⚡️</p>
                             <p>▹ Date｜July 21, 2024 Sun. 18:00<br />
                             ▹ Venue｜B&apos;IN LIVE SPACE -KEELUNG 3F (3F, No. 103, <br />
