@@ -13,7 +13,46 @@ function Index() {
                 <h2 className={styles.Newstitle}>News</h2>
                 <div className={styles.divider}></div>
                 <section className={styles.NewsSection}>
-                    <h2 className={styles.Wackentitle}>June 16, 2024 - WACKEN METAL BATTLE</h2>
+                    <h3 className={styles.Wackentitle}>July 21, 2024 - LIVE IN LIVE x MakeMake《17808 Anti-bullying》
+                    </h3>
+                    <div className={styles.June14}>
+                        <div className={styles.iamlife}>
+                            <Image
+                            src="/20240721.svg"
+                            width={400}
+                            height={400}
+                            alt="2024 B'IN LIVE SPACE - KEELUNG Opening Concert"
+                            />
+                        </div>
+                        <div className={styles.news2}>
+                            <p>✦ 2024 B'IN LIVE SPACE - KEELUNG Opening Concert ✦</p>
+                            <p>LIVE IN LIVE x MakeMake 17808 "Anti-bullying" </p>
+                            <p>Tired of school bullying, cyberbullying, and workplace <br />
+                                harassment? We've had enough of verbal violence! 
+                            </p>
+                            <p>People think they can hide behind their keyboards and say<br />
+                                anything without consequences. But there are better ways <br />
+                                to find care and support.
+                            </p>
+                            <p>Life can be tough, but you don't have to face it alone.</p>
+                            <p>LJoin us for an evening to let it all out together!</p>
+                            <p>⚡️Information⚡️</p>
+                            <p>▹ Date｜July 21, 2024 Sun. 18:00<br />
+                            ▹ Venue｜B'IN LIVE SPACE -KEELUNG 3F (3F, No. 103, <br />
+                            Zhongzheng Rd., Zhongzheng District, Keelung City)<br />
+                            ▹ Organizer｜B'IN LIVE Entertainment<br />
+                            </p>
+                            <p>⚡️Ticket ⚡️</p>
+                            <Link 
+                                href="https://binliveco.kktix.cc/events/af3a1bew-50721"
+                                target="_blank"
+                            >
+                            https://binliveco.kktix.cc/events/af3a1bew-50721
+                            </Link>
+                        </div>
+                    </div>
+                    <div className={styles.divider}></div>
+                    <h3 className={styles.Wackentitle}>June 16, 2024 - WACKEN METAL BATTLE</h3>
                     <div className={styles.June16}>
                         <div className={styles.WACKEN_METAL_BATTLE}>
                             <Image

@@ -54,10 +54,20 @@ function Merch() {
                         alt="makemake t-shirt"
                     />
                     </div>
-                    <div className={styles.MerchPageintro}>
+                    <div className={styles.ShopButton}>
+                    <a href="https://shop.fantimate.com/pages/makemake">
+                    <Image
+                        src="/SHOPNOW.svg"
+                        width={200}
+                        height={80}
+                        alt="makemake shop"
+                    />
+                    </a>
+                    </div>
+                    {/* <div className={styles.MerchPageintro}>
                         <p>Online shopping is coming soon. Stay tuned!</p>
                         <p>Follow us on Instagram to get the latest information!</p>
-                    </div>
+                    </div> */}
                 </section>
             </main>
             <Footer />

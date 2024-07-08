@@ -55,9 +55,9 @@ function Example() {
       </Offcanvas>
       <Image
        className={styles.MakeMakeLogo}
-        src="/右上Logo.svg"
-        width={75}
-        height={75}
+        src="/MakeLogo.svg"
+        width={80}
+        height={80}
         alt="MakeMake Logo"
       />
     </Navbar>
